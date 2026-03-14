@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+	//과제 1번
     int a = -5;
 	unsigned int b = (unsigned int)a; // a를 unsigned int로 변환하여 b에 저장합니다
 
@@ -10,7 +11,7 @@ int main() {
     else if (b == 0xFFFFFFFA) {
 		printf("1의 보수입니다.\n"); //16진수 0xFFFFFFFA는 1의 보수 표현에서 -5를 나타내기때문에 b의값과 같은지 비교해서 출력합니다
     }
-    
+    //과제 2번
     float input;
     printf("입력:\n");  
     scanf_s("%f", &input);
